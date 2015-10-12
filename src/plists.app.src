@@ -1,0 +1,11 @@
+{application, plists,
+ [
+  {description, "Parallel list operations"},
+  {vsn, "0.9"},
+  {registered, []},
+  {applications, [kernel,
+                  stdlib
+                 ]},
+  {mod, { plists, []}},
+  {env, []}
+ ]}.
